@@ -1,2 +1,3 @@
 # Hello-World
-Aprendendo
+Ola,Pessoal.
+Estou em busca de conhecimento para me tornar um  bom programador.
