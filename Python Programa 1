@@ -1,0 +1,28 @@
+#LOCAL DE DIGITAÇÃO     o "#" significa que essa linha está desativada
+
+import math #essa linha serve para dar suporte ao math.sin (calcula o seno) e ao math.sqrt (calcula a raiz quadrada)
+
+def soma(): #criando uma função chamada soma que irá somar os números que o usuário digitou
+#def = defina (ou inglês "define")
+  CALCULA_SOMA = N0 + N1 + N2 + N3
+  print('---------------------------')
+  print('O resultado da soma {:.1f}'.format(CALCULA_SOMA))
+  print('---------------------------')
+
+def seno():
+  SENO_N0 = math.sin(N0)
+  SENO_N1 = math.sin(N1)
+  SENO_N2 = math.sin(N2)
+  SENO_N3 = math.sin(N3)
+  print('---------------------------')
+  print('Os resultados dos senos são: {:.1f} / {:.1f} / {:.1f} / {:.1f}'.format(SENO_N0,SENO_N1,SENO_N2,SENO_N3))
+  print('---------------------------')
+
+def raiz():
+  RAIZ_N0 = math.sqrt(N0)
+  RAIZ_N1 = math.sqrt(N1)
+  RAIZ_N2 = math.sqrt(N2)
+  RAIZ_N3 = math.sqrt(N3)
+  print('---------------------------')
+  print('Os resultados das raízes são: {:.3f} / {:.3f} / {:.3f} / {:.3f}'.format(RAIZ_N0,RAIZ_N1,RAIZ_N2,RAIZ_N3))
+  print('---------------------------')
